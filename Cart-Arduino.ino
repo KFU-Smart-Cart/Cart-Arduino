@@ -267,7 +267,7 @@ long cUp() {
   Serial.print("cm1");
   Serial.println();
 
-  return 100;
+  return cm1;
 }
 
 long cLeft() {
@@ -292,7 +292,7 @@ long cLeft() {
   Serial.print(cm2);
   Serial.print("cm2");
   Serial.println();
-  return 100;
+  return cm2;
 }
 
 long cRight() {
@@ -318,7 +318,7 @@ long cRight() {
   Serial.print("cm3");
   Serial.println();
 
-  return 100;
+  return cm3;
 }
 
 void vUp() {
